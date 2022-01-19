@@ -1,0 +1,100 @@
+# Baking Cake
+# This is a step by step guide for baking a cake.
+
+# Step 1: Make sure you have all the necessary ingredients on the box
+# Step 2: Preheat your oven to 350 degrees Fahrenheit
+# Step 3: Place the cake mix into a bowl
+# Step 4: Crack two whole eggs into the bowl, do not stir
+# Step 5: Pour half a cup of milk into the bowl
+# Step 6: Pour 1 tbsp of vanilla extract
+# Step 7: Mix and stir until cake batter is smooth. No bubbles, No lumps!
+# Step 8: Use non-stick butter spray on a non-stick cake pan
+# Step 9: Pour the cake batter evenly into the non-stick cake pan
+# Step 10: Place the cake into the oven for 30 min
+# Step 11: Check the cake by using a toothpick, there should be no excess
+
+def main():
+    startup_message()
+    input("Press enter to see step 1.")
+    step_1()
+    input('Press enter to see step 2.')
+    step_2()
+    input('Press enter to see step 3.')
+    step_3()
+    input('Press enter to see step 4.')
+    step_4()
+    input('Press enter to see step 5.')
+    step_5()
+    input('Press enter to see step 6.')
+    step_6()
+    input('Press enter to see step 7.')
+    step_7()
+    input('Press enter to see step 8.')
+    step_8()
+    input('Press enter to see step 9.')
+    step_9()
+    input('Press enter to see step 10.')
+    step_10()
+    input('Press enter to see step 11.')
+    step_11()
+    check_excess()
+
+def startup_message():
+    print('Hi! Lets bake a cake!')
+    print('Please follow the step by step guide.')
+    input('Press Enter to proceed once to continue the program ')
+
+def step_1():
+    # Display step 1
+    print("Make sure you have all the necessary ingredients on the box")
+
+def step_2():
+    # Display step 2
+    print("Preheat your oven to 350 degrees Fahrenheit")
+
+def step_3():
+    # Display step 3
+    print("Place the cake mix into a bowl")
+
+def step_4():
+    # Display step 4
+    print("Crack two whole eggs into the bowl, do not stir")
+
+def step_5():
+    # Display step 5
+    print("Pour half a cup of milk into the bowl")
+
+def step_6():
+    # Display step 6
+    print("Pour 1 tbsp of vanilla extract")
+
+def step_7():
+    # Display step 7
+    print("Mix and stir until cake batter is smooth. No bubbles, No lumps!")
+
+def step_8():
+    # Display step 8
+    print("Use non-stick butter spray on a non-stick cake pan")
+
+def step_9():
+    # Display step 9
+    print("Pour the cake batter evenly into the non-stick cake pan")
+
+def step_10():
+    # Display step 10
+    print("Place the cake into the oven for 30 min")
+
+def step_11():
+    # Display step 11
+    print("Check the cake by using a toothpick, there should be no excess")
+
+
+def check_excess():
+    # Final step to ensure the cake is ready
+    final_check = str(input("Did the toothpick have excess cake batter? Enter Y for Yes or N for No: "))
+    if final_check == 'Y' or 'y':
+        print("Leave the cake in for 5 more minuntes and check again")
+    else:
+        print("The cake is done! Let's eat!")
+        #Call the main function of the program
+main()
